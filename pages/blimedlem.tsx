@@ -1,17 +1,13 @@
 import React from 'react'
-import Logo from '../components/Logo'
-import Navigation from '../components/Navigation'
+import FormBankId from '../components/FormBankId'
 
 function Register() {
   return (
-    <div>
-      <nav className="mt-3 flex w-screen justify-between">
-        <Logo></Logo>
-        <Navigation></Navigation>
-      </nav>
-
-      <div>
-        <h1>Bli medlem!</h1>
+    <div className="flex h-screen items-center bg-slate-50">
+      <div className="container mx-auto h-[400px] bg-white">
+        <p className="text-center">Logga in eller bli medlem</p>
+        <h1>Välkommen till Kollektiva</h1>
+        <FormBankId />
       </div>
     </div>
   )
