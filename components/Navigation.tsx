@@ -33,6 +33,11 @@ function Navigation() {
           <a className="text-blue-500 hover:text-blue-800">Bli medlem</a>
         </Link>
       </li>
+      <li className="mr-6">
+        <Link href="/blimedlem">
+          <a className="text-blue-500 hover:text-blue-800">Min profil</a>
+        </Link>
+      </li>
     </ul>
   )
 }
