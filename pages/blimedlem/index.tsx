@@ -1,5 +1,4 @@
 import React from 'react'
-import FormBankId from '../components/FormBankId'
 
 function Register() {
   return (
@@ -7,7 +6,6 @@ function Register() {
       <div className="container mx-auto h-[400px] bg-white">
         <p className="text-center">Logga in eller bli medlem</p>
         <h1>Välkommen till Kollektiva</h1>
-        <FormBankId />
       </div>
     </div>
   )

@@ -3,7 +3,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Navigation from '../components/Navigation'
 import Logo from '../components/Logo'
-import Register from './blimedlem'
 
 const Home: NextPage = () => {
   return (
