@@ -1,8 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import Navigation from '../components/Navigation'
 import Logo from '../components/Logo'
+import SearchBar from '../components/SearchBar'
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +15,9 @@ const Home: NextPage = () => {
         <Logo></Logo>
         <Navigation></Navigation>
       </nav>
+      <div className="w-screen flex justify-center">
+      <SearchBar></SearchBar>
+      </div>
     </div>
   )
 }
