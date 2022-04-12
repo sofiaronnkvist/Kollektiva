@@ -1,36 +1,40 @@
 import React from 'react'
-import ButtonLg from '../../components/Buttons/ButtonLg'
-import ButtonSm from '../../components/Buttons/ButtonSm'
-import ButtonSm2 from '../../components/Buttons/ButtonSm2'
-import ButtonMd from '../../components/Buttons/ButtonMd'
-import Logo from '../../components/Logo'
 import LoginHeader from '../../components/LoginHeader'
+import QuestionMark from '../../components/QuestionMark'
+import Link from 'next/link'
+import Image from 'next/image'
 
 function Login() {
   return (
     <div>
       <LoginHeader />
-      <div className="flex items-center bg-slate-50">
-        <div className="container mx-auto h-[400px] bg-white">
+      <div className="flex items-center bg-white">
+        <div className="container mx-auto">
           <h1 className=" mb-[40px] mt-[186px] text-center text-[30px] font-bold">
             Logga in eller skapa konto
           </h1>
-          <div className="text-center">
-            <button className="h-[72px] w-[434px] rounded-full bg-indigo-700 text-[24px] text-white">
-              Mobilt BankID
+          <div className="mb-[24px] text-center">
+            <button className="h-[72px] w-[434px] rounded-full bg-indigo-700 text-[18px] text-white">
+              <div className="flex items-center justify-center">
+                <Image src="/bankid.svg" alt="BankID" width="60" height="60" />
+                <div>Mobilt BankID</div>
+              </div>
             </button>
           </div>
-          <div className="text-center">
-            <button className="h-[72px] w-[434px] rounded-full border border-indigo-700 bg-indigo-100 text-[24px] text-indigo-900">
-              Skapa konto
-            </button>
+          <div className="mb-[32px] text-center">
+            <Link href="/blimedlem">
+              <button className="h-[72px] w-[434px] rounded-full border border-indigo-700 bg-indigo-100 text-[24px] text-indigo-900">
+                Skapa konto
+              </button>
+            </Link>
           </div>
 
-          <p className="text-center">
+          <p className="text-center text-[18px] text-indigo-700">
             Så loggar du in med mobilt BankID och QR-kod
           </p>
         </div>
       </div>
+      <QuestionMark />
     </div>
   )
 }
