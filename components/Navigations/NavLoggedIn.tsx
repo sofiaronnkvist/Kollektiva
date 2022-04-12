@@ -1,9 +1,9 @@
 import Link from 'next/link'
-import Logo from './Logo'
+import Logo from '../Logo'
 
-function Navigation() {
+function NavLoggedIn() {
   return (
-    <ul className="flex justify-between items-baseline px-8 py-8">
+    <ul className="flex items-baseline justify-between px-8 py-8">
       <li className="mr-6">
         <Link href="/">
           <Logo></Logo>
@@ -48,4 +48,4 @@ function Navigation() {
   )
 }
 
-export default Navigation
+export default NavLoggedIn

@@ -1,7 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Navigation from '../components/Navigation'
-import Logo from '../components/Logo'
+import Navigation from '../components/Navigations/Navigation'
 import SearchBar from '../components/SearchBar'
 import HeroIndex from '../components/HeroIndex'
 
@@ -15,8 +14,8 @@ const Home: NextPage = () => {
       <nav className="mt-3 w-screen">
         <Navigation></Navigation>
       </nav>
-      <div className="w-screen flex justify-center">
-      <SearchBar></SearchBar>
+      <div className="flex w-screen justify-center">
+        <SearchBar></SearchBar>
       </div>
       <HeroIndex></HeroIndex>
     </div>

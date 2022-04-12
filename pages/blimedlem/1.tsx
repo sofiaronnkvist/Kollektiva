@@ -4,7 +4,7 @@ import ButtonLg from '../../components/Buttons/ButtonLg'
 function Blimedlem1() {
   return (
     <div className="flex h-screen items-center bg-slate-50">
-      <div className="container mx-auto h-[400px] bg-white">
+      <div className="container mx-auto bg-white">
         <h1 className="text-center">Bli en del av Kollektiva</h1>
         <p>
           Hos Kollektiva hör alla hemma. För att säkerställa det så ber vi dig

@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 function QuestionMark() {
   return (
-    <div className="mt-[154px] mr-[162px] flex justify-end">
+    <div className="fixed bottom-0 flex w-full justify-end">
       <Image
         src="/questionmark.svg"
         alt="Hur gör jag här?"

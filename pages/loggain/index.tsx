@@ -29,7 +29,7 @@ function Login() {
             </Link>
           </div>
 
-          <p className="text-center text-[18px] text-indigo-700">
+          <p className="mb-[154px] text-center text-[18px] text-indigo-700">
             Så loggar du in med mobilt BankID och QR-kod
           </p>
         </div>
