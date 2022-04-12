@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <nav className="mt-3 flex w-screen justify-between">
+      <nav className="mt-3 flex w-screen justify-between p-4">
         <Logo></Logo>
         <Navigation></Navigation>
       </nav>
