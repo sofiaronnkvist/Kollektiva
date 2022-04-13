@@ -1,22 +1,40 @@
 import React from 'react'
 import ButtonLg from '../../components/Buttons/ButtonLg'
+import LoginHeader from '../../components/LoginHeader'
+import Link from 'next/link'
+import Image from 'next/image'
 
 function SkapaAnnons() {
   return (
-    <div className="flex h-screen items-center bg-slate-50">
-      <div className="container mx-auto h-[400px] bg-white">
-        <h1 className="text-center">Skapa annons för din bostad</h1>
-      </div>
+    <div>
+      <LoginHeader />
       <div>
-        <h1>
-          Hej Marianne! <br />
-          Det är enkelt att bli hyresvärd.
-        </h1>
-        <p>
-          Till höger ser du en video som förklarar hur det går till. När du är
-          redo klickar du på sätt igång!
-        </p>
-        <ButtonLg text="Sätt igång" />
+        <div className="container mx-auto mt-[72px] flex items-center justify-center bg-white">
+          <div className="w-[548px]">
+            <h1 className="mb-[24px] text-[36px] text-indigo-800">
+              Hej Marianne! <br />
+              Det är enkelt att bli hyresvärd.
+            </h1>
+            <p className="mb-[40px] text-[24px]">
+              Till höger ser du en video som förklarar hur det går till. När du
+              är redo klickar du på sätt igång!
+            </p>
+            <Link href="/skapaannons/1">
+              <button className="h-[72px] w-[454px] rounded-full bg-indigo-500 text-[24px] text-white">
+                Sätt igång
+              </button>
+            </Link>
+          </div>
+          <div className="relative overflow-hidden">
+            <Image
+              className="h-full w-full"
+              src="/video.png"
+              alt="test"
+              width="548"
+              height="574"
+            ></Image>
+          </div>
+        </div>
       </div>
     </div>
   )
