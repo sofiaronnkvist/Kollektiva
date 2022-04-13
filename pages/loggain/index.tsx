@@ -10,7 +10,7 @@ function Login() {
       <LoginHeader />
       <div className="flex items-center bg-white">
         <div className="container mx-auto">
-          <h1 className=" mb-[40px] mt-[186px] text-center text-[30px] font-bold">
+          <h1 className="mb-[40px] mt-[186px] text-center text-[30px] font-bold">
             Logga in eller skapa konto
           </h1>
           <div className="mb-[24px] text-center">

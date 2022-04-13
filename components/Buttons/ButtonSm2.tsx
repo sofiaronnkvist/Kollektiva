@@ -1,4 +1,4 @@
-function ButtonSm2(props) {
+function ButtonSm2(props: any) {
   return (
     <button className="h-[52px] w-[185px] rounded-full border border-indigo-700 bg-indigo-100 text-[24px] text-indigo-900">
       {props.text}
