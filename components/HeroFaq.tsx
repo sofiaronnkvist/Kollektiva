@@ -1,15 +1,15 @@
-import ButtonSm from "./Buttons/ButtonSm";
+import ButtonMd from "./Buttons/ButtonMd";
 import Image from 'next/image';
 
 function HeroFaq() {
     return(
-        <div className="flex p-20">
-            <div>
-                <h2 className="font-bold text-3xl">Vanliga frågor och svar</h2>
-                <p>Här finner du några vanliga frågor och svar. Om du inte hittar svar på din fråga så kontakta oss gärna via knappen nedan eller ring oss på 08-645 00 20</p>
-                <ButtonSm text="Kontakta oss"></ButtonSm>
+        <div className="flex flex-col gap-12 md:flex-row p-8 md:p-20">
+            <div className="flex flex-col md:w-1/2 gap-10">
+                <h2 className="font-bold text-5xl">Vanliga frågor<br/> och svar</h2>
+                <p className="text-xl">Här finner du några vanliga frågor och svar. Om du inte hittar svar på din fråga så kontakta oss gärna via knappen nedan eller ring oss på 08-645 00 20</p>
+                <ButtonMd text="Kontakta oss"></ButtonMd>
             </div>
-            <div>
+            <div className="md:w-1/2">
                 <ul>
                     <li>
                         <div className="flex">

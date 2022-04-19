@@ -12,7 +12,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Kollektiva</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <nav className="mt-3 w-screen">

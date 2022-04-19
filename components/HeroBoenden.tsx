@@ -2,30 +2,36 @@ import Image from 'next/image'
 
 function HeroBoenden() {
     return(
-        <div className="p-20">
+        <div className="p-8 md:p-20">
             <div>
-                <h2 className="font-bold text-3xl">Nya boenden publicerade</h2>
+                <h2 className="font-bold text-3xl pb-8">Nya boenden publicerade</h2>
             </div>
-            <div className='flex'>
+            <div className='flex flex-col md:flex-row justify-between'>
                 <div>
-                <button className="h-[52px] w-[185px] rounded-full bg-emerald-200 text-[24px] text-green-900">Linköping</button>
-                    <Image src="/stockholm.jpeg" alt="Linköping" layout="intrinsic" objectFit="contain" width={400} height={400} />
+                <div className="flex max-h-[215px] max-w-[353px]">
+                    <img className="object-cover rounded-3xl" src="/stockholm.jpeg" alt="Linköping" />
+                    <button className="absolute translate-y-5 translate-x-4 h-[32px] w-[124px] rounded-full bg-emerald-200 text-[16px] text-green-900">Linköping</button>
+                </div>
                     <div className='flex justify-between'>
                         <h4 className='font-bold'>Ekebyvägen</h4>
                         <p>Rum 5600 SEK/månad</p>
                     </div>
                 </div>
                 <div>
-                <button className="h-[52px] w-[185px] rounded-full bg-emerald-200 text-[24px] text-green-900">Norrköping</button>
-                    <Image src="/norrkoping.jpeg" alt="Norrköping" layout="intrinsic" objectFit="contain" width={400} height={400} />
+                <div className="flex max-h-[215px] max-w-[353px]">
+                    <img className="object-cover rounded-3xl" src="/norrkoping.jpeg" alt="Norrköping" />
+                    <button className="absolute translate-y-5 translate-x-4 h-[32px] w-[124px] rounded-full bg-emerald-200 text-[16px] text-green-900">Norrköping</button>
+                </div>
                     <div className='flex justify-between'>
                         <h4 className='font-bold'>Landsgatan</h4>
                         <p>Attefallshus 5600 SEK/månad</p>
                     </div>
                 </div>
                 <div>
-                <button className="h-[52px] w-[185px] rounded-full bg-emerald-200 text-[24px] text-green-900">Göteborg</button>
-                    <Image src="/goteborg.jpeg" alt="Göteborg" layout="intrinsic" objectFit="contain" width={400} height={400} />
+                <div className="flex max-h-[215px] max-w-[353px]">
+                    <img className="object-cover rounded-3xl" src="/goteborg.jpeg" alt="Göteborg" />
+                    <button className="absolute translate-y-5 translate-x-4 h-[32px] w-[124px] rounded-full bg-emerald-200 text-[16px] text-green-900">Göteborg</button>
+                </div>
                     <div className='flex justify-between'>
                         <h4 className='font-bold'>Vasagatan</h4>
                         <p>Stuga 9000 SEK/månad</p>
