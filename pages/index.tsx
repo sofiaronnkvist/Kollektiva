@@ -3,6 +3,10 @@ import Head from 'next/head'
 import Navigation from '../components/Navigations/Navigation'
 import SearchBar from '../components/SearchBar'
 import HeroIndex from '../components/HeroIndex'
+import HeroUsp from '../components/HeroUsp'
+import HeroBoenden from '../components/HeroBoenden'
+import HeroFaq from '../components/HeroFaq'
+import Footer from '../components/Footer'
 
 const Home: NextPage = () => {
   return (
@@ -18,6 +22,10 @@ const Home: NextPage = () => {
         <SearchBar></SearchBar>
       </div>
       <HeroIndex></HeroIndex>
+      <HeroUsp></HeroUsp>
+      <HeroBoenden></HeroBoenden>
+      <HeroFaq></HeroFaq>
+      <Footer></Footer>
     </div>
   )
 }
