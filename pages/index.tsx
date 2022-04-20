@@ -18,7 +18,7 @@ const Home: NextPage = () => {
       <nav className="mt-3 w-screen">
         <Navigation></Navigation>
       </nav>
-      <div className="flex w-screen justify-center">
+      <div className="flex w-full justify-center">
         <SearchBar></SearchBar>
       </div>
       <HeroIndex></HeroIndex>

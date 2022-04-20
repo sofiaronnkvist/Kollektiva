@@ -1,20 +1,20 @@
 import React from 'react';
 import NavLoggedIn from '../../components/Navigations/NavLoggedIn';
 import Footer from '../../components/Footer';
-import MinaAnnonser from '../../components/Profil/MinaAnnonser';
+import Ansokning from '../../components/Profil/Ansokning';
 import ProfilMeny from '../../components/Profil/ProfilMeny';
 
-function Profil() {
+function Ansokningar() {
   return (
     <div>
       <NavLoggedIn name="Marianne W" />
       <div className='flex'>
         <ProfilMeny></ProfilMeny>
-        <MinaAnnonser></MinaAnnonser>
+        <Ansokning></Ansokning>
       </div>
       <Footer></Footer>
     </div>
   )
 }
 
-export default Profil
+export default Ansokningar

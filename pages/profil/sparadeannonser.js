@@ -1,20 +1,20 @@
 import React from 'react';
 import NavLoggedIn from '../../components/Navigations/NavLoggedIn';
 import Footer from '../../components/Footer';
-import MinaAnnonser from '../../components/Profil/MinaAnnonser';
+import Sparade from '../../components/Profil/Sparade';
 import ProfilMeny from '../../components/Profil/ProfilMeny';
 
-function Profil() {
+function SparadeAnnonser() {
   return (
     <div>
       <NavLoggedIn name="Marianne W" />
       <div className='flex'>
         <ProfilMeny></ProfilMeny>
-        <MinaAnnonser></MinaAnnonser>
+        <Sparade></Sparade>
       </div>
       <Footer></Footer>
     </div>
   )
 }
 
-export default Profil
+export default SparadeAnnonser

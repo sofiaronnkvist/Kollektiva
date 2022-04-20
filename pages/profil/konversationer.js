@@ -1,20 +1,20 @@
 import React from 'react';
 import NavLoggedIn from '../../components/Navigations/NavLoggedIn';
 import Footer from '../../components/Footer';
-import MinaAnnonser from '../../components/Profil/MinaAnnonser';
+import Konversation from '../../components/Profil/Konversation';
 import ProfilMeny from '../../components/Profil/ProfilMeny';
 
-function Profil() {
+function Konversationer() {
   return (
     <div>
       <NavLoggedIn name="Marianne W" />
       <div className='flex'>
         <ProfilMeny></ProfilMeny>
-        <MinaAnnonser></MinaAnnonser>
+        <Konversation></Konversation>
       </div>
       <Footer></Footer>
     </div>
   )
 }
 
-export default Profil
+export default Konversationer
