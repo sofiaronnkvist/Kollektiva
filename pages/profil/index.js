@@ -4,7 +4,7 @@ import NavLoggedIn from '../../components/Navigations/NavLoggedIn'
 function Profil() {
   return (
     <div>
-      <NavLoggedIn />
+      <NavLoggedIn name="Marianne W" />
     </div>
   )
 }
