@@ -5,7 +5,7 @@ import Image from 'next/image'
 function Navigation() {
   return (
     <div>
-      <ul className="flex items-baseline justify-between px-8 py-8">
+      <ul className="flex items-baseline justify-between px-8 py-6">
         <li className="ml-[50px]">
           <Link href="/">
             <Logo></Logo>
