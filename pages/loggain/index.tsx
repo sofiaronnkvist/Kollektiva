@@ -17,7 +17,7 @@ function Login() {
             <button className="h-[72px] w-[434px] rounded-full bg-indigo-700 text-[18px] text-white">
               <div className="flex items-center justify-center">
                 <Image src="/bankid.svg" alt="BankID" width="60" height="60" />
-                <div>Mobilt BankID</div>
+                <div><a href="/profil">Mobilt BankID</a></div>
               </div>
             </button>
           </div>
