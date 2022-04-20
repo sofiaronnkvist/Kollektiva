@@ -4,7 +4,7 @@ import LoginHeader from '../../components/LoginHeader'
 import Link from 'next/link'
 import Image from 'next/image'
 
-function SkapaAnnons() {
+function Publicera() {
   return (
     <div>
       <LoginHeader />
@@ -12,16 +12,20 @@ function SkapaAnnons() {
         <div className="container mx-auto mt-[50px] flex items-center justify-center bg-white">
           <div className="w-[548px]">
             <h1 className="mb-[24px] text-[36px] text-indigo-800">
-              Hej Marianne! <br />
-              Det är enkelt att bli hyresvärd.
+              Nu är din annons snart uppe!
             </h1>
             <p className="mb-[40px] text-[24px]">
-              Till höger ser du en video som förklarar hur det går till. När du
-              är redo klickar du på sätt igång!
+              Några saker som är bra att veta: Följ alltid lokala lagar och glöm
+              inte att granska de policys som gäller för Kollektiva.
             </p>
             <Link href="/skapaannons/1">
               <button className="h-[72px] w-[454px] rounded-full bg-indigo-500 text-[24px] text-white">
-                Sätt igång
+                Granska och publicera
+              </button>
+            </Link>
+            <Link href="/skapaannons/1">
+              <button className="h-[72px] w-[454px] rounded-full bg-indigo-500 text-[24px] text-white">
+                Tillbaka
               </button>
             </Link>
           </div>
@@ -40,4 +44,4 @@ function SkapaAnnons() {
   )
 }
 
-export default SkapaAnnons
+export default Publicera

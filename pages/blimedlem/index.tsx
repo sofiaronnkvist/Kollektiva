@@ -9,9 +9,7 @@ function Register() {
       <LoginHeader />
       <div>
         <div className="container mx-auto">
-          <h1 className="mt-[72px] text-center text-[30px]">
-            Slutför registreringen
-          </h1>
+          <h1 className="mt-[72px] text-center text-[30px]">Bli medlem</h1>
           <div className="flex justify-center">
             <form action="">
               <label
