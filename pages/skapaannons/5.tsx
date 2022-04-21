@@ -11,33 +11,18 @@ function SkapaAnnons1() {
       <LoginHeader />
       <div className="container mx-auto mt-[50px] flex items-center justify-center bg-white">
         <div className="w-[548px]">
-          <h1 className="mb-[24px] text-[36px] text-indigo-800">
-            Vilket typ av boende vill du hyra ut?
+          <h1 className="mb-[48px] text-[36px] text-indigo-800">
+            Beskriv i text vad ditt boende har att erbjuda
           </h1>
-          <h2 className="text-[20px] text-indigo-800">
-            Vilket typ av bostad hyr du ut?
+          <h2 className="mb-[8px] text-[20px]  text-gray-500">
+            Skriv en text om ditt boende
           </h2>
-          <div className="my-[24px] flex justify-between">
-            <button className="choice-button">Villa</button>
-            <button className="choice-button">Lägenhet</button>
-            <button className="choice-button">Attefallshus</button>
-            <button className="choice-button">Stuga</button>
-          </div>
-          <h2 className="my-[24px] text-[20px] text-indigo-800">
-            Vill du hyra hela bostaden eller ett rum i bostaden?
-          </h2>
-          <div className="flex">
-            <button className="choice-button mr-6">Hela bostaden</button>
-            <button className="choice-button">Rum i bostaden</button>
-          </div>
-          <h2 className="my-[24px] text-[20px] text-indigo-800">
-            Hyr du ut möblerat?
-          </h2>
-          <div className="mb-[80px] flex">
-            <button className="choice-button mr-6">Möblerat</button>
-            <button className="choice-button">Omöblerat</button>
-          </div>
-          <div className="flex items-center justify-between">
+          <textarea
+            placeholder="exempel: En trevlig stuga med en luftig fin altan med sjöutsikt"
+            className="h-[170px] w-[548px] rounded border border-indigo-900 p-[20px] text-[18px]"
+          />
+
+          <div className="mt-[130px] flex items-center justify-between">
             <ButtonSm2 text="Tillbaka" link="/skapaannons/4" />
             <p className="text-[20px] text-indigo-700">5/9</p>
             <ButtonSm text="Nästa" link="/skapaannons/6" />
