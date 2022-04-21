@@ -16,7 +16,7 @@ function SearchBar() {
                 <input className='w-[200px]' type="text" name="boende" id="boende" placeholder="Vad för typ av boende?"/>
             </div>
             <div className='self-end'>
-                <button><Image src="/searchbutton.png" alt='search button' width="45" height="45"/></button>
+                <a href='/bostader'><button><Image src="/searchbutton.png" alt='search button' width="45" height="45"/></button></a>
             </div>
         </div>
     )

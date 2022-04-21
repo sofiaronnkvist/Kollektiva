@@ -3,7 +3,9 @@ import Logo from "./Logo";
 function Footer() {
     return(
         <footer className="flex flex-col justify-center pt-14">
+            <div className="w-full flex justify-center">
             <Logo></Logo>
+            </div>
             <div>
                 <ul className="flex flex-col md:flex-row gap-12 justify-center p-6 text-gray-500 text-xl">
                     <li>Om Kollektiva</li>
