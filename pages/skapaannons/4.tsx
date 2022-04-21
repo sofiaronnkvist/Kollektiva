@@ -5,7 +5,7 @@ import QuestionMark from '../../components/QuestionMark'
 import Link from 'next/link'
 import ButtonSm from '../../components/Buttons/ButtonSm'
 
-function SkapaAnnons2() {
+function SkapaAnnons1() {
   return (
     <div>
       <LoginHeader />
@@ -38,9 +38,9 @@ function SkapaAnnons2() {
             <button className="choice-button">Omöblerat</button>
           </div>
           <div className="flex items-center justify-between">
-            <ButtonSm2 text="Tillbaka" link="/skapaannons/1" />
-            <p className="text-[20px] text-indigo-700">2/9</p>
-            <ButtonSm text="Nästa" link="/skapaannons/3" />
+            <ButtonSm2 text="Tillbaka" link="/skapaannons/3" />
+            <p className="text-[20px] text-indigo-700">4/9</p>
+            <ButtonSm text="Nästa" link="/skapaannons/5" />
           </div>
         </div>
       </div>
@@ -48,4 +48,4 @@ function SkapaAnnons2() {
   )
 }
 
-export default SkapaAnnons2
+export default SkapaAnnons1

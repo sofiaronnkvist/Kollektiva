@@ -3,6 +3,7 @@ import LoginHeader from '../../components/LoginHeader'
 import ButtonSm2 from '../../components/Buttons/ButtonSm2'
 import QuestionMark from '../../components/QuestionMark'
 import Link from 'next/link'
+import ButtonSm from '../../components/Buttons/ButtonSm'
 
 function SkapaAnnons1() {
   return (
@@ -37,16 +38,11 @@ function SkapaAnnons1() {
             <button className="choice-button">Omöblerat</button>
           </div>
           <div className="flex items-center justify-between">
-            <ButtonSm2 text="Tillbaka" />
+            <ButtonSm2 text="Tillbaka" link="/skapaannons/1" />
             <p className="text-[20px] text-indigo-700">1/9</p>
-            <Link href="/skapaannons/2">
-              <button className="h-[52px] w-[185px] rounded-full bg-indigo-500 text-[24px] text-white">
-                Nästa
-              </button>
-            </Link>
+            <ButtonSm text="Nästa" link="/skapaannons/2" />
           </div>
         </div>
-        <QuestionMark />
       </div>
     </div>
   )

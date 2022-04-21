@@ -18,12 +18,12 @@ function Publicera() {
               Några saker som är bra att veta: Följ alltid lokala lagar och glöm
               inte att granska de policys som gäller för Kollektiva.
             </p>
-            <Link href="/skapaannons/1">
+            <Link href="/profil">
               <button className="h-[72px] w-[454px] rounded-full bg-indigo-500 text-[24px] text-white">
                 Granska och publicera
               </button>
             </Link>
-            <Link href="/skapaannons/1">
+            <Link href="/skapaannons/9">
               <button className="h-[72px] w-[454px] rounded-full bg-indigo-500 text-[24px] text-white">
                 Tillbaka
               </button>
