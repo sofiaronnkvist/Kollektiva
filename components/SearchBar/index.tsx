@@ -13,7 +13,7 @@ function SearchBar() {
             </div>
             <div className="flex flex-col">
                 <label htmlFor="boende">Boende</label>
-                <input type="text" name="boende" id="boende" placeholder="Vad för typ av boende?"/>
+                <input className='w-[200px]' type="text" name="boende" id="boende" placeholder="Vad för typ av boende?"/>
             </div>
             <div className='self-end'>
                 <button><Image src="/searchbutton.png" alt='search button' width="45" height="45"/></button>
