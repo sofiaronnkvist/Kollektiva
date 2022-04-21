@@ -33,7 +33,7 @@ function SkapaAnnons1() {
           <h2 className="my-[24px] text-[20px] text-indigo-800">
             Hyr du ut möblerat?
           </h2>
-          <div className="mb-[80px] flex">
+          <div className="mb-[60px] flex">
             <button className="choice-button mr-6">Möblerat</button>
             <button className="choice-button">Omöblerat</button>
           </div>

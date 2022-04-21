@@ -14,30 +14,29 @@ function SkapaAnnons1() {
           <h1 className="mb-[24px] text-[36px] text-indigo-800">
             Vilken adress har bostaden?
           </h1>
-          <h2 className="text-[20px] text-indigo-800">
-            Vilket typ av bostad hyr du ut?
+          <h2 className="mb-[12px] text-[20px] text-indigo-800 ">Gata</h2>
+          <input
+            type="text"
+            placeholder="Vad är bostadens gatuaddress?"
+            className="h-[52px] w-[548px] rounded border border-indigo-900 px-[20px]"
+          />
+          <h2 className="my-[24px] mb-[12px] text-[20px] text-indigo-800">
+            Postnummer
           </h2>
-          <div className="my-[24px] flex justify-between">
-            <button className="choice-button">Villa</button>
-            <button className="choice-button">Lägenhet</button>
-            <button className="choice-button">Attefallshus</button>
-            <button className="choice-button">Stuga</button>
-          </div>
-          <h2 className="my-[24px] text-[20px] text-indigo-800">
-            Vill du hyra hela bostaden eller ett rum i bostaden?
+          <input
+            type="text"
+            placeholder="Vad är bostadens postnummer?"
+            className="h-[52px] w-[548px] rounded border border-indigo-900 px-[20px]"
+          />
+          <h2 className="my-[24px] mb-[12px] text-[20px] text-indigo-800 ">
+            Stad
           </h2>
-          <div className="flex">
-            <button className="choice-button mr-6">Hela bostaden</button>
-            <button className="choice-button">Rum i bostaden</button>
-          </div>
-          <h2 className="my-[24px] text-[20px] text-indigo-800">
-            Hyr du ut möblerat?
-          </h2>
-          <div className="mb-[80px] flex">
-            <button className="choice-button mr-6">Möblerat</button>
-            <button className="choice-button">Omöblerat</button>
-          </div>
-          <div className="flex items-center justify-between">
+          <input
+            type="text"
+            placeholder="Vilken stad ligger bostaden i?"
+            className="h-[52px] w-[548px] rounded border border-indigo-900 px-[20px]"
+          />
+          <div className="mt-[120px] flex items-center justify-between">
             <ButtonSm2 text="Tillbaka" link="/skapaannons/2" />
             <p className="text-[20px] text-indigo-700">3/9</p>
             <ButtonSm text="Nästa" link="/skapaannons/4" />
