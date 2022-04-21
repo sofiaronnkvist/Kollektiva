@@ -8,11 +8,18 @@ function RumUthyres() {
   return (
     <div>
       <NavLoggedIn name="Marianne W" />
-      <button className="border-1 flex h-[52px] w-[410px] items-center justify-center gap-1 rounded-lg border text-sm shadow-sm">
-        <img src="/arrow-left-circle.png" />
-        <img src="/home-muted.png" alt="A house" />
-        <a href="/profil">Min profil \ Mina annonser \ Rum uthyres</a>
-      </button>
+      <div className="flex justify-center">
+        <div className="my-[32px] mr-[212px] w-[900px]">
+          <button className="border-1 flex h-[52px] w-[410px] items-center justify-center gap-1 rounded-lg border text-sm shadow-sm">
+            <img src="/arrow-left-circle.png" />
+            <img src="/home-muted.png" alt="A house" />
+            <a className="text-gray-400" href="/profil">
+              Min profil \ Mina annonser \{' '}
+            </a>
+            <p>Rum uthyres</p>
+          </button>
+        </div>
+      </div>
       <div className="flex justify-center">
         <div className="mr-[20px] w-[548px]">
           <Image src="/rumuthyres1.jpg" width="548" height="352" />
