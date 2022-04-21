@@ -1,7 +1,7 @@
 import React from 'react';
 import NavLoggedIn from '../../components/Navigations/NavLoggedIn';
 import Footer from '../../components/Footer';
-import Ansokning from '../../components/Profil/Ansokning';
+import AdamProfilKomp from '../../components/Profil/AdamProfilKomp';
 import ProfilMeny from '../../components/Profil/ProfilMeny';
 
 function AdamProfilSida() {
@@ -9,8 +9,7 @@ function AdamProfilSida() {
     <div>
       <NavLoggedIn name="Marianne W" />
       <div className='flex'>
-        <ProfilMeny></ProfilMeny>
-        <Ansokning></Ansokning>
+        <AdamProfilKomp></AdamProfilKomp>
       </div>
       <Footer></Footer>
     </div>
