@@ -30,9 +30,9 @@ function Bostad() {
                             <img className="object-cover rounded-3xl w-full h-full" src="/rum2.jpeg" alt="Ett rum" />
                         </div>
                         <div className="flex flex-col gap-2">
-                            <h3 className="font-bold text-xl">Ekebyvägen 31</h3>
-                            <p>Rum i villa  1 rum  15 m3</p>
-                            <p className="pt-4">8 259 SEK/månad</p>
+                            <h3 className="font-bold text-xl">Alingsgränd 4A</h3>
+                            <p>Rum i stuga  1 rum  12 m3</p>
+                            <p className="pt-4">4 000 SEK/månad</p>
                         </div>
                     </div>
                 <hr className="border-gray-200 pb-6" />
@@ -43,9 +43,9 @@ function Bostad() {
                             <img className="object-cover rounded-3xl w-full h-full" src="/rum3.jpeg" alt="Ett rum" />
                         </div>
                         <div className="flex flex-col gap-2">
-                            <h3 className="font-bold text-xl">Ekebyvägen 31</h3>
-                            <p>Rum i villa  1 rum  15 m3</p>
-                            <p className="pt-4">8 259 SEK/månad</p>
+                            <h3 className="font-bold text-xl">Kvistvägen 66</h3>
+                            <p>Rum i garage  1 rum  9 m3</p>
+                            <p className="pt-4">2 259 SEK/månad</p>
                         </div>
                     </div>
                 <hr className="border-gray-200 pb-6" />
@@ -56,9 +56,9 @@ function Bostad() {
                             <img className="object-cover rounded-3xl w-full h-full" src="/rum4.jpeg" alt="Ett rum" />
                         </div>
                         <div className="flex flex-col gap-2">
-                            <h3 className="font-bold text-xl">Ekebyvägen 31</h3>
-                            <p>Rum i villa  1 rum  15 m3</p>
-                            <p className="pt-4">8 259 SEK/månad</p>
+                            <h3 className="font-bold text-xl">Vitsippevägen 19</h3>
+                            <p>Rum i villa  1 rum  18 m3</p>
+                            <p className="pt-4">8 900 SEK/månad</p>
                         </div>
                     </div>
                 <hr className="border-gray-200 pb-6" />
@@ -69,7 +69,7 @@ function Bostad() {
                             <img className="object-cover rounded-3xl w-full h-full" src="/rum1.png" alt="Ett rum" />
                         </div>
                         <div className="flex flex-col gap-2">
-                            <h3 className="font-bold text-xl">Ekebyvägen 31</h3>
+                            <h3 className="font-bold text-xl">Vitsippevägen 12</h3>
                             <p>Rum i villa  1 rum  15 m3</p>
                             <p className="pt-4">8 259 SEK/månad</p>
                         </div>
@@ -82,9 +82,9 @@ function Bostad() {
                             <img className="object-cover rounded-3xl w-full h-full" src="/rum2.jpeg" alt="Ett rum" />
                         </div>
                         <div className="flex flex-col gap-2">
-                            <h3 className="font-bold text-xl">Ekebyvägen 31</h3>
-                            <p>Rum i villa  1 rum  15 m3</p>
-                            <p className="pt-4">8 259 SEK/månad</p>
+                            <h3 className="font-bold text-xl">Alingsgränd 4A</h3>
+                            <p>Rum i villa  1 rum  12 m3</p>
+                            <p className="pt-4">4 000 SEK/månad</p>
                         </div>
                     </div>
                 <hr className="border-gray-200 pb-6" />
