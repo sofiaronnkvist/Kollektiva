@@ -4,7 +4,7 @@ function Ansokning() {
     return(
         <div>
             <div className='flex flex-col gap-4 pt-10 pr-2 md:pr-60 w-full'>
-                <button className='shadow-sm text-sm flex items-center gap-1 justify-center h-[52px] w-[250px] border rounded-lg border-1'><img src='/home-muted.png' alt='A house' />Min profil \ Ansökningar</button>
+                <button className='shadow-sm text-sm flex items-center gap-1 justify-center h-[52px] w-[250px] border rounded-lg border-1 text-gray-400'><img src='/home-muted.png' alt='A house' />Min profil \ <p className="text-gray-900">Ansökningar</p></button>
                 <h4>Du har fått 150 svar på din annons “Rum uthyres”. Här visas de bästa matchningarna för dig baserat på dina önskemål.</h4>
                 <div className="border rounded-md border-indigo-900 flex p-4 justify-between items-baseline w-full">
                     <div className="flex gap-6">

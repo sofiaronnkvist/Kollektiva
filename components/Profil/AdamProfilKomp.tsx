@@ -5,7 +5,7 @@ function AdamProfilKomp() {
     <div className="flex p-20 gap-40">
         <div className="w-2/3">
             <div>
-                <button className='shadow-sm text-sm flex items-center gap-1 justify-center h-[52px] w-[410px] border rounded-lg border-1'><img src="/arrow-left-circle.png" /><img src='/home-muted.png' alt='A house'/><a href="/profil">Min profil \ Ansökningar \ Adam Thordsson</a></button>
+                <button className='shadow-sm text-sm flex items-center gap-1 justify-center h-[52px] w-[410px] border rounded-lg border-1'><img src="/arrow-left-circle.png" /><img src='/home-muted.png' alt='A house'/><a className="text-gray-400" href="/profil">Min profil \ Ansökningar \ </a><p>Adam Thordsson</p></button>
             </div>
             <div>
                 <h1 className="py-10 text-5xl font-bold">Adam Thordsson, 26 år</h1>
