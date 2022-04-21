@@ -2,6 +2,7 @@ import React from 'react'
 import LoginHeader from '../../components/LoginHeader'
 import ButtonSm2 from '../../components/Buttons/ButtonSm2'
 import QuestionMark from '../../components/QuestionMark'
+import Link from 'next/link'
 
 function SkapaAnnons1() {
   return (
@@ -38,9 +39,11 @@ function SkapaAnnons1() {
           <div className="flex items-center justify-between">
             <ButtonSm2 text="Tillbaka" />
             <p className="text-[20px] text-indigo-700">1/9</p>
-            <button className="h-[52px] w-[185px] rounded-full bg-indigo-500 text-[24px] text-white">
-              Nästa
-            </button>
+            <Link href="/skapaannons/2">
+              <button className="h-[52px] w-[185px] rounded-full bg-indigo-500 text-[24px] text-white">
+                Nästa
+              </button>
+            </Link>
           </div>
         </div>
         <QuestionMark />
