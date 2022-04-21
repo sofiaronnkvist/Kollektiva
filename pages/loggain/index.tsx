@@ -11,7 +11,7 @@ function Login() {
       <div className="flex items-center bg-white">
         <div className="container mx-auto">
           <h1 className="mb-[40px] mt-[186px] text-center text-[30px] font-bold">
-            Logga in eller skapa konto
+            Logga in med email eller BankID
           </h1>
           <div className="mb-[24px] text-center">
             <button className="h-[72px] w-[434px] rounded-full bg-indigo-700 text-[18px] text-white">
@@ -24,7 +24,7 @@ function Login() {
           <div className="mb-[32px] text-center">
             <Link href="/blimedlem">
               <button className="h-[72px] w-[434px] rounded-full border border-indigo-700 bg-indigo-100 text-[24px] text-indigo-900">
-                Skapa konto
+                Logga in med email
               </button>
             </Link>
           </div>

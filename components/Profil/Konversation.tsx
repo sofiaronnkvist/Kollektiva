@@ -12,7 +12,7 @@ function Konversation() {
                             <img className="rounded-full" src="/adam-chatt.png" alt="Profilbild" />
                         </div>
                         <div>
-                            <h3 className="text-xl pb-2">Adam Thordsson</h3>
+                            <a href="/profil/adam-chatt" className="text-xl pb-2">Adam Thordsson</a>
                             <p className="text-lg pb-2 text-gray-500">Hej! Jag heter Adam och jag skulle g... • 2 tim</p>
                         </div>
                     </div>
