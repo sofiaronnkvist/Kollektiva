@@ -1,6 +1,6 @@
 function ButtonBorder(props: any) {
   return (
-    <button className="h-[52px] rounded-full border border-indigo-700 bg-indigo-100 px-[30px] text-[24px] text-black">
+    <button className="my-[8px] mx-[2px] h-[52px] cursor-default rounded-full border  border-indigo-500 px-[30px] text-[18px] text-black">
       {props.text}
     </button>
   )
