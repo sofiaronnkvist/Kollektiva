@@ -43,6 +43,7 @@ function SkapaAnnons1() {
             <ButtonSm text="Nästa" link="/skapaannons/2" />
           </div>
         </div>
+        <QuestionMark />
       </div>
     </div>
   )

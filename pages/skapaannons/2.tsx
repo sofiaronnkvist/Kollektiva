@@ -77,6 +77,7 @@ function SkapaAnnons2() {
           </div>
         </div>
       </div>
+      <QuestionMark />
     </div>
   )
 }
