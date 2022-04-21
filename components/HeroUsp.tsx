@@ -23,7 +23,7 @@ function HeroUsp() {
                 <li>
                     <div className='flex justify-left items-center gap-2 py-6'>
                     <img src="/Round3.png" />
-                    <h4 className="font-bold text-2xl">Det är enkelt</h4>
+                    <h4 className="font-bold text-2xl">Matchade ansökningar</h4>
                     </div>
                     <p className='text-lg'>Vi sköter matchningsprocessen så du ska få den bästa och mest lämpliga hyresgästen.</p>
                 </li>
