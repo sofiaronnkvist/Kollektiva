@@ -7,9 +7,9 @@ function LoginHeader(props: any) {
     <div>
       <div className="flex items-center justify-between px-[192px]">
         <Logo />
-        <Link href="/">
+        <Link href={props.link}>
           <div className="my-[34px] flex items-center text-[18px] text-indigo-500">
-            Stäng <div className="text-white">..</div>
+            {props.add}Stäng <div className="text-white">..</div>
             <Image
               src="/closeicon.png"
               alt="close icon"

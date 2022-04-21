@@ -24,7 +24,7 @@ function NavLoggedIn(props: any) {
             <div className="m-[10px] flex items-center">
               <Image src="/edit.svg" width="20" height="20"></Image>
             </div>
-            <Link href="/">
+            <Link href="/skapaannons">
               <a className="text-black hover:text-blue-800">Ny annons</a>
             </Link>
           </li>

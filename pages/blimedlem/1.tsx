@@ -7,7 +7,7 @@ import Link from 'next/link'
 function Blimedlem1() {
   return (
     <div>
-      <LoginHeader />
+      <LoginHeader link="/" />
       <div className="container mx-auto w-[450px] bg-white">
         <h1 className="mt-[100px] mb-[18px] text-[30px]">
           Bli en del av Kollektiva

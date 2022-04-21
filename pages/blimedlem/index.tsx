@@ -6,7 +6,7 @@ import QuestionMark from '../../components/QuestionMark'
 function Register() {
   return (
     <div>
-      <LoginHeader />
+      <LoginHeader link="/" />
       <div>
         <div className="container mx-auto">
           <h1 className="mt-[72px] text-center text-[30px]">Bli medlem</h1>

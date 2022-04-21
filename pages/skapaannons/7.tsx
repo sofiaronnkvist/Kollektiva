@@ -9,7 +9,7 @@ import Image from 'next/image'
 function SkapaAnnons1() {
   return (
     <div>
-      <LoginHeader />
+      <LoginHeader add="Spara och " link="/profil" />
       <div className="container mx-auto mt-[50px] flex items-center justify-center bg-white">
         <div className="w-[548px]">
           <h1 className="mb-[24px] text-[36px] text-indigo-800">

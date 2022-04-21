@@ -7,7 +7,7 @@ import Image from 'next/image'
 function Login() {
   return (
     <div>
-      <LoginHeader />
+      <LoginHeader link="/" />
       <div className="flex items-center bg-white">
         <div className="container mx-auto">
           <h1 className="mb-[40px] mt-[186px] text-center text-[30px] font-bold">

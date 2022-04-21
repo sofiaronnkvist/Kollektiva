@@ -9,7 +9,7 @@ import ButtonSm from '../../components/Buttons/ButtonSm'
 function SkapaAnnons1() {
   return (
     <div>
-      <LoginHeader />
+      <LoginHeader add="Spara och " link="/profil" />
       <div className="container mx-auto mt-[50px] flex items-center justify-center bg-white">
         <div>
           <div className="flex items-center">
