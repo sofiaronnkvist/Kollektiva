@@ -9,35 +9,52 @@ function SkapaAnnons1() {
   return (
     <div>
       <LoginHeader />
-      <div className="container mx-auto mt-[50px] flex items-center justify-center bg-white">
-        <div className="w-[548px]">
+      <div className="container mx-auto mt-[32px] flex items-center justify-center bg-white">
+        <div className="w-[600px]">
           <h1 className="mb-[24px] text-[36px] text-indigo-800">
-            Vilket typ av boende vill du hyra ut?
+            Vad gör ditt boende till något extra?
           </h1>
-          <h2 className="text-[20px] text-indigo-800">
-            Vilket typ av bostad hyr du ut?
+          <h2 className="mb-[24px] text-[20px]  text-gray-500">
+            Välj de bekvämligheter som stämmer in. Du kan lägga till egna
+            fördelar med bostaden.
           </h2>
-          <div className="my-[24px] flex justify-between">
-            <button className="choice-button">Villa</button>
-            <button className="choice-button">Lägenhet</button>
-            <button className="choice-button">Attefallshus</button>
-            <button className="choice-button">Stuga</button>
+          <div>
+            <button className="choice-button mb-[10px] mr-[10px] text-[18px]">
+              Balkong/Uteplats
+            </button>
+            <button className="choice-button mb-[10px] mr-[10px] text-[18px]">
+              Internet
+            </button>
+            <button className="choice-button mb-[10px] mr-[10px] text-[18px]">
+              Badkar
+            </button>
+            <button className="choice-button mb-[10px] mr-[10px] text-[18px]">
+              Grill
+            </button>
+            <button className="choice-button mb-[10px] mr-[10px] text-[18px]">
+              Hemmagym
+            </button>
+            <button className="choice-button mb-[10px] mr-[10px] text-[18px]">
+              Sällskapsspel
+            </button>
+            <button className="choice-button mb-[10px] mr-[10px] text-[18px]">
+              Rullstolsanpassat
+            </button>
           </div>
-          <h2 className="my-[24px] text-[20px] text-indigo-800">
-            Vill du hyra hela bostaden eller ett rum i bostaden?
+          <h2 className="my-[24px] mb-[12px] text-[20px] text-indigo-800 ">
+            Lägg till annat
           </h2>
-          <div className="flex">
-            <button className="choice-button mr-6">Hela bostaden</button>
-            <button className="choice-button">Rum i bostaden</button>
-          </div>
-          <h2 className="my-[24px] text-[20px] text-indigo-800">
-            Hyr du ut möblerat?
+          <h2 className="mb-[8px] text-[20px]  text-gray-500">
+            Du kan lägga till flera alternativ. Klicka på Enter för att lägga
+            till.
           </h2>
-          <div className="mb-[80px] flex">
-            <button className="choice-button mr-6">Möblerat</button>
-            <button className="choice-button">Omöblerat</button>
-          </div>
-          <div className="flex items-center justify-between">
+          <input
+            type="text"
+            placeholder="exempel: Biljardbord"
+            className="h-[52px] w-[548px] rounded border border-indigo-900 px-[20px]"
+          />
+
+          <div className="mt-[32px] flex items-center justify-between">
             <ButtonSm2 text="Tillbaka" link="/skapaannons/5" />
             <p className="text-[20px] text-indigo-700">6/9</p>
             <ButtonSm text="Nästa" link="/skapaannons/7" />
