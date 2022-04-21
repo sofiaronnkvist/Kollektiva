@@ -29,6 +29,9 @@ function RumUthyres() {
           <Image src="/rumuthyres1.jpg" width="262" height="164" />
           <Image src="/rumuthyres1.jpg" width="262" height="164" />
           <Image src="/rumuthyres1.jpg" width="262" height="164" />
+          <button className="absolute h-[36px] w-[181px] translate-y-[300px] translate-x-[320px] rounded-full border border-indigo-900 bg-indigo-100 text-[16px] text-indigo-900">
+            + Se alla bilder
+          </button>
         </div>
       </div>
       <div className="my-[24px] flex justify-center">
