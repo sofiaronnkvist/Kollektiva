@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Logo from '../Logo'
 import Link from 'next/link'
 
-function LoginHeader() {
+function LoginHeader(props: any) {
   return (
     <div>
       <div className="flex items-center justify-between px-[192px]">

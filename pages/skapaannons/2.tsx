@@ -11,31 +11,64 @@ function SkapaAnnons2() {
       <LoginHeader />
       <div className="container mx-auto mt-[50px] flex items-center justify-center bg-white">
         <div className="w-[548px]">
-          <h1 className="mb-[24px] text-[36px] text-indigo-800">
-            Vilket typ av boende vill du hyra ut?
+          <h1 className="mb-[56px] text-[36px] text-indigo-800">
+            Hur stort är det där du vill hyra ut?
           </h1>
-          <h2 className="text-[20px] text-indigo-800">
-            Vilket typ av bostad hyr du ut?
-          </h2>
-          <div className="my-[24px] flex justify-between">
-            <button className="choice-button">Villa</button>
-            <button className="choice-button">Lägenhet</button>
-            <button className="choice-button">Attefallshus</button>
-            <button className="choice-button">Stuga</button>
+          <div className="mb-[56px] flex">
+            <div className="mr-[80px]">
+              <h2 className="mb-[16px] text-[20px] text-indigo-800">
+                Antal rum
+              </h2>
+              <div className="flex items-center">
+                <select className="h-[52px] w-[167px] rounded border border-indigo-900">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                </select>
+                <p className="ml-[12px] text-[20px] text-indigo-800">Rum</p>
+              </div>
+            </div>
+            <div>
+              <h2 className="mb-[16px] text-[20px] text-indigo-800">Storlek</h2>
+              <div className="flex items-center">
+                <input
+                  type="text"
+                  className="h-[52px] rounded border border-indigo-900"
+                />
+                <p className="ml-[12px] text-[20px] text-indigo-800">
+                  m<sup>2</sup>
+                </p>
+              </div>
+            </div>
           </div>
           <h2 className="my-[24px] text-[20px] text-indigo-800">
-            Vill du hyra hela bostaden eller ett rum i bostaden?
+            Hur många personer kan bo här?
           </h2>
-          <div className="flex">
-            <button className="choice-button mr-6">Hela bostaden</button>
-            <button className="choice-button">Rum i bostaden</button>
-          </div>
-          <h2 className="my-[24px] text-[20px] text-indigo-800">
-            Hyr du ut möblerat?
-          </h2>
-          <div className="mb-[80px] flex">
-            <button className="choice-button mr-6">Möblerat</button>
-            <button className="choice-button">Omöblerat</button>
+          <div className="mb-[100px]">
+            <button className="mr-[10px] h-[50px] w-[50px] rounded-full border border-indigo-900 text-[18px] hover:bg-indigo-500">
+              1
+            </button>
+            <button className="mr-[10px] h-[50px] w-[50px] rounded-full border border-indigo-900 text-[18px] hover:bg-indigo-500">
+              2
+            </button>
+            <button className="mr-[10px] h-[50px] w-[50px] rounded-full border border-indigo-900 text-[18px] hover:bg-indigo-500">
+              3
+            </button>
+            <button className="mr-[10px] h-[50px] w-[50px] rounded-full border border-indigo-900 text-[18px] hover:bg-indigo-500">
+              4
+            </button>
+            <button className="mr-[10px] h-[50px] w-[50px] rounded-full border border-indigo-900 text-[18px] hover:bg-indigo-500">
+              5
+            </button>
+            <button className="mr-[10px] h-[50px] w-[50px] rounded-full border border-indigo-900 text-[18px] hover:bg-indigo-500">
+              6+
+            </button>
           </div>
           <div className="flex items-center justify-between">
             <ButtonSm2 text="Tillbaka" link="/skapaannons/1" />

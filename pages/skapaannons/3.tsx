@@ -12,7 +12,7 @@ function SkapaAnnons1() {
       <div className="container mx-auto mt-[50px] flex items-center justify-center bg-white">
         <div className="w-[548px]">
           <h1 className="mb-[24px] text-[36px] text-indigo-800">
-            Vilket typ av boende vill du hyra ut?
+            Vilken adress har bostaden?
           </h1>
           <h2 className="text-[20px] text-indigo-800">
             Vilket typ av bostad hyr du ut?
