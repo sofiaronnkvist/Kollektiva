@@ -4,11 +4,11 @@ function AdamChattKomp() {
     return(
         <div className="flex p-20 gap-40">
             <div className="w-2/3">
-                <button className='shadow-sm text-sm flex items-center gap-1 justify-center h-[52px] w-[410px] border rounded-lg border-1'><img src="/arrow-left-circle.png" /><img src='/home-muted.png' alt='A house'/><a href="/profil">Min profil \ Konversationer \ Adam Thordsson</a></button>
+                <button className='shadow-sm text-sm flex items-center gap-1 justify-center h-[52px] w-[410px] border rounded-lg border-1'><img src="/arrow-left-circle.png" /><img src='/home-muted.png' alt='A house'/><a className="text-gray-400" href="/profil">Min profil \ Konversationer \</a><p>Adam Thordsson</p></button>
                 <div className="py-8 flex justify-between">
                     <div className="flex items-center gap-6">
                         <img className="rounded-full" src="/adam-chatt.png" alt="Adam profilbild" />
-                        <h2 className="font-bold text-2xl">Adam Thordsson</h2>
+                        <h2 className="font-bold text-2xl text-gray-900">Adam Thordsson</h2>
                     </div>
                     <div className="flex gap-4 items-center">
                         <img className="h-[24px] w-[24px]" src="/telefon.png" alt="Telefon" />
@@ -34,20 +34,41 @@ function AdamChattKomp() {
                 </div>
             </div>
             <div className="w-1/3">
-                <img className="rounded-full" src="/adam-chatt.png" alt="Adam profilbild" />
-                <h4 className="text-lg py-6">Om Adam</h4>
-                <div className="flex gap-4 flex-col">
-                    <p className="flex gap-2"><img src="/user-check-black.png" alt="Verifierad check"/>Verifierad användare</p>
-                    <p className="flex gap-2"><img src="/home.svg" alt="Hus pin"/>Bor i Göteborg</p>
-                    <p className="flex gap-2"><img src="/map-pin.png" alt="Karta pin"/>Söker bostad i Linköping</p>
-                    <p className="flex gap-2"><img src="/map-pin.png" alt="Karta pin"/>Maxhyra 9000 kr</p>
-                    <p className="flex gap-2"><img src="/map-pin.png" alt="Karta pin"/>Minsta antal rum: 1</p>
+                <div className="flex items-center gap-6">
+                    <img className="rounded-full w-[96px] h-[96px]" src="/room1.jpeg" alt="Ett rum" />
+                    <div>
+                        <h3 className="text-2xl text-gray-900 font-medium">Rum uthyres</h3>
+                        <p className="text-gray-900">Rum i villa • 1 rum • 15 m3</p>
+                        <p className="text-gray-900">Ekebyvägen 31, Linköping</p>
+                    </div>
                 </div>
-                <p className="text-sm pt-14">Adam har skickat ett<br /> meddelande till dig</p>
-                <div className="flex flex-col gap-4 pt-6">
-                    <button className="h-[38px] w-[210px] rounded-full bg-indigo-500 text-[16px] text-white">Svara på meddelande</button>
-                    <button className="flex items-center justify-center gap-2 h-[38px] w-[210px] rounded-full border border-indigo-700 text-[16px] text-indigo-900"><img src="/heart.png" alt="Hjärta" />Spara profil</button>
+                <div className="py-6">
+                    <h4 className="text-2xl pb-2 font-medium">Detta ingår</h4>
+                    <p className="pb-2">Säker och trygg depositionshantering ✓</p>
+                    <p className="pb-2">Tillgänglig kundservie alla dagar i veckan ✓</p>
+                    <p className="pb-2">Smidig hyreshantering  ✓</p>
+                    <p>Verifierade hyresvärdar och hyresgäster  ✓</p>
                 </div>
+                <div className="flex gap-6">
+                    <h3 className="text-2xl pb-2 font-medium">Månadskonstnad</h3>
+                    <p className="text-2xl">8 396 kr</p>
+                </div>
+                <hr className="border-gray-900" />
+                <div className="flex justify-between py-6">
+                    <div className="flex flex-col gap-6">
+                        <p className="flex gap-2">Hyra<img src="/info-filled.svg" alt="Info"/></p>
+                        <p className="flex gap-2">Serviceavgift<img src="/info-filled.svg" alt="Info"/></p>
+                    </div>
+                    <div className="flex flex-col gap-6">
+                        <p>7 500 kr</p>
+                        <p>896 kr</p>
+                    </div>
+                </div>
+                <div className="flex gap-6">
+                    <h3 className="text-2xl pb-2 font-medium">Deposition</h3>
+                    <p className="text-2xl">7 500 kr</p>
+                </div>
+                <p className="pt-8">Din deposition är säker hos oss på<br/> Kollektiva. <b>Läs mer</b></p>
             </div>
         </div>
         );

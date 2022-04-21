@@ -3,10 +3,8 @@ import Link from 'next/link'
 function MinaAnnonser() {
   return (
     <div className="flex w-2/3 flex-col gap-4 pt-10 pr-20">
-      <button className="border-1 flex h-[52px] w-[250px] items-center justify-center gap-1 rounded-lg border text-sm shadow-sm">
-        <img src="/home-muted.png" alt="A house" />
-        Min profil \ Mina annonser
-      </button>
+      <button className="text-gray-400 border-1 flex h-[52px] w-[250px] items-center justify-center gap-1 rounded-lg border text-sm shadow-sm">
+        <img src="/home-muted.png" alt="A house" />Min profil \ <p className='text-gray-900'>Mina annonser</p></button>
       <div className="h-[300px] w-full">
         <img
           className="h-full w-full rounded-3xl object-cover shadow-md"
