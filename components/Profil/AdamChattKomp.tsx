@@ -8,7 +8,7 @@ function AdamChattKomp() {
                 <div className="py-8 flex justify-between">
                     <div className="flex items-center gap-6">
                         <img className="rounded-full" src="/adam-chatt.png" alt="Adam profilbild" />
-                        <h2 className="font-bold text-2xl text-gray-900">Adam Thordsson</h2>
+                        <h2 className="font-semibold text-2xl text-gray-900">Adam Thordsson</h2>
                     </div>
                     <div className="flex gap-4 items-center">
                         <img className="h-[24px] w-[24px]" src="/telefon.png" alt="Telefon" />

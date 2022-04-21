@@ -11,8 +11,8 @@ function Konversation() {
                         <div>
                             <img className="rounded-full" src="/adam-chatt.png" alt="Profilbild" />
                         </div>
-                        <div>
-                            <a href="/profil/adam-chatt" className="text-xl pb-2">Adam Thordsson</a>
+                        <div className="flex flex-col gap-6 justify-center">
+                            <a href="/profil/adam-chatt" className="text-xl">Adam Thordsson</a>
                             <p className="text-lg pb-2 text-gray-500">Hej! Jag heter Adam och jag skulle g... • 2 tim</p>
                         </div>
                     </div>
@@ -22,8 +22,8 @@ function Konversation() {
                         <div>
                             <img className="rounded-full" src="/gerd-chatt.png" alt="Profilbild" />
                         </div>
-                        <div>
-                            <h3 className="text-xl pb-2">Gerd Stark</h3>
+                        <div className="flex flex-col gap-6 justify-center">
+                            <h3 className="text-xl">Gerd Stark</h3>
                             <p className="text-lg pb-2 text-gray-500">Du: Hej Gerd tyvärr stämmer det inte... • 6 tim</p>
                         </div>
                     </div>
@@ -33,8 +33,8 @@ function Konversation() {
                         <div>
                             <img className="rounded-full" src="/nicole-chatt.png" alt="Profilbild" />
                         </div>
-                        <div>
-                            <h3 className="text-xl pb-2">Nicole Damién</h3>
+                        <div className="flex flex-col gap-6 justify-center">
+                            <h3 className="text-xl">Nicole Damién</h3>
                             <p className="text-lg pb-2 text-gray-500">Du: Hej Nicole vad trevligt! Jag har t... • 2 dag</p>
                         </div>
                     </div>
