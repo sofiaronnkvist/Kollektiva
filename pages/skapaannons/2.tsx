@@ -51,22 +51,22 @@ function SkapaAnnons2() {
             Hur många personer kan bo här?
           </h2>
           <div className="mb-[100px]">
-            <button className="mr-[10px] h-[50px] w-[50px] rounded-full border border-indigo-900 text-[18px] hover:bg-indigo-500">
+            <button className="mr-[10px] h-[50px] w-[50px] rounded-full border border-indigo-900 text-[18px] hover:bg-indigo-500 hover:text-white">
               1
             </button>
-            <button className="mr-[10px] h-[50px] w-[50px] rounded-full border border-indigo-900 text-[18px] hover:bg-indigo-500">
+            <button className="mr-[10px] h-[50px] w-[50px] rounded-full border border-indigo-900 text-[18px] hover:bg-indigo-500 hover:text-white">
               2
             </button>
-            <button className="mr-[10px] h-[50px] w-[50px] rounded-full border border-indigo-900 text-[18px] hover:bg-indigo-500">
+            <button className="mr-[10px] h-[50px] w-[50px] rounded-full border border-indigo-900 text-[18px] hover:bg-indigo-500 hover:text-white">
               3
             </button>
-            <button className="mr-[10px] h-[50px] w-[50px] rounded-full border border-indigo-900 text-[18px] hover:bg-indigo-500">
+            <button className="mr-[10px] h-[50px] w-[50px] rounded-full border border-indigo-900 text-[18px] hover:bg-indigo-500 hover:text-white">
               4
             </button>
-            <button className="mr-[10px] h-[50px] w-[50px] rounded-full border border-indigo-900 text-[18px] hover:bg-indigo-500">
+            <button className="mr-[10px] h-[50px] w-[50px] rounded-full border border-indigo-900 text-[18px] hover:bg-indigo-500 hover:text-white">
               5
             </button>
-            <button className="mr-[10px] h-[50px] w-[50px] rounded-full border border-indigo-900 text-[18px] hover:bg-indigo-500">
+            <button className="mr-[10px] h-[50px] w-[50px] rounded-full border border-indigo-900 text-[18px] hover:bg-indigo-500 hover:text-white">
               6+
             </button>
           </div>
