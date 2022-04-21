@@ -9,6 +9,18 @@ function RumUthyres() {
     <div>
       <NavLoggedIn name="Marianne W" />
       <div className="flex justify-center">
+        <div className="my-[32px] mr-[212px] w-[900px]">
+          <button className="border-1 flex h-[52px] w-[410px] items-center justify-center gap-1 rounded-lg border text-sm shadow-sm">
+            <img src="/arrow-left-circle.png" />
+            <img src="/home-muted.png" alt="A house" />
+            <a className="text-gray-400" href="/profil">
+              Min profil \ Mina annonser \{' '}
+            </a>
+            <p>Rum uthyres</p>
+          </button>
+        </div>
+      </div>
+      <div className="flex justify-center">
         <div className="mr-[20px] w-[548px]">
           <Image src="/rumuthyres1.jpg" width="548" height="352" />
         </div>
@@ -70,34 +82,49 @@ function RumUthyres() {
             Redigera annons
           </button>
         </div>
-        <div className="box-shadow my-[24px] h-[341px] w-[357px] p-[24px]">
-          <div className="flex justify-between">
-            <p className="mb-[24px] text-2xl text-gray-900">Månadskostnad</p>
-            <p className="text-[20px]">8 369 kr</p>
-          </div>
-          <hr className="mb-[24px] text-black" />
-          <div className="flex justify-between">
-            <div className="mb-[24px] flex items-center">
-              <p className="mr-[8px] text-[16px] text-gray-900">Hyra</p>
-              <Image src="/info-filled.svg" width="20" height="20" />
+        <div className=" w-[357px]">
+          <div className="box-shadow my-[24px] h-[341px] w-[357px] p-[24px]">
+            <div className="flex justify-between">
+              <p className="mb-[24px] text-2xl text-gray-900">Månadskostnad</p>
+              <p className="text-[20px]">8 369 kr</p>
             </div>
-            <p>7 500 kr</p>
-          </div>
-          <div className="flex justify-between">
-            <p className="mb-[32px] text-[16px] text-gray-900">
-              Serviceavgift
-              <Image src="/info-filled.svg" width="20" height="20" />
+            <hr className="mb-[24px] text-black" />
+            <div className="flex justify-between">
+              <div className="mb-[24px] flex items-center">
+                <p className="mr-[8px] text-[16px] text-gray-900">Hyra</p>
+                <Image src="/info-filled.svg" width="20" height="20" />
+              </div>
+              <p>7 500 kr</p>
+            </div>
+            <div className="flex justify-between">
+              <div className="mb-[32px] flex items-center">
+                <p className="mr-[8px] text-[16px] text-gray-900">
+                  Serviceavgift
+                </p>
+                <Image src="/info-filled.svg" width="20" height="20" />
+              </div>
+              <p>896 kr</p>
+            </div>
+            <div className="flex justify-between">
+              <p className="mb-[24px] text-2xl text-gray-900">Deposition</p>
+              <p>7 500 kr</p>
+            </div>
+            <p className="mb-[24px] text-[16px] text-gray-900">
+              Din deposition är säker hos oss på Kollektiva.{' '}
+              <span className="font-bold">Läs mer</span>
             </p>
-            <p>896 kr</p>
           </div>
-          <div className="flex justify-between">
-            <p className="mb-[24px] text-2xl text-gray-900">Deposition</p>
-            <p>7 500 kr</p>
-          </div>
-          <p className="mb-[24px] text-[16px] text-gray-900">
-            Din deposition är säker hos oss på Kollektiva.{' '}
-            <span className="font-bold">Läs mer</span>
+
+          <h2 className="mt-[48px] mb-[16px] w-[357px] text-2xl">
+            Har du hittat någon du vill hyra ut till?
+          </h2>
+          <p>
+            När du skapar hyresavtal kan du välja bland de personer du varit i
+            kontakt med.
           </p>
+          <button className="mt-[24px] h-[48px] w-[262px] rounded-full bg-indigo-500 text-[20px] text-white">
+            Skapa hyresavtal
+          </button>
         </div>
       </div>
     </div>
