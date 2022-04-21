@@ -4,6 +4,7 @@ import ButtonSm2 from '../../components/Buttons/ButtonSm2'
 import QuestionMark from '../../components/QuestionMark'
 import Link from 'next/link'
 import ButtonSm from '../../components/Buttons/ButtonSm'
+import Image from 'next/image'
 
 function SkapaAnnons1() {
   return (
@@ -12,32 +13,23 @@ function SkapaAnnons1() {
       <div className="container mx-auto mt-[50px] flex items-center justify-center bg-white">
         <div className="w-[548px]">
           <h1 className="mb-[24px] text-[36px] text-indigo-800">
-            Vilket typ av boende vill du hyra ut?
+            Dags att lägga upp bilder på boendet!
           </h1>
-          <h2 className="text-[20px] text-indigo-800">
-            Vilket typ av bostad hyr du ut?
+          <h2 className="mb-[24px] text-[20px]  text-gray-500">
+            Ladda upp minst fem bilder, men gärna fler. Detta är för att de
+            boendesökande ska få en tydlig bild över bostaden och omgivningarna.
           </h2>
-          <div className="my-[24px] flex justify-between">
-            <button className="choice-button">Villa</button>
-            <button className="choice-button">Lägenhet</button>
-            <button className="choice-button">Attefallshus</button>
-            <button className="choice-button">Stuga</button>
+          <div className="flex h-[224px] w-[548px] flex-col items-center justify-center rounded border border-indigo-900">
+            <p className="mb-[25px] text-[18px]">
+              Dra bilder hit eller klicka på ladda upp
+            </p>
+            <div className="flex">
+              <Image src="/upload.svg" width="24" height="24"></Image>
+              <p className="ml-[10px] text-[20px] text-indigo-800">Ladda upp</p>
+            </div>
           </div>
-          <h2 className="my-[24px] text-[20px] text-indigo-800">
-            Vill du hyra hela bostaden eller ett rum i bostaden?
-          </h2>
-          <div className="flex">
-            <button className="choice-button mr-6">Hela bostaden</button>
-            <button className="choice-button">Rum i bostaden</button>
-          </div>
-          <h2 className="my-[24px] text-[20px] text-indigo-800">
-            Hyr du ut möblerat?
-          </h2>
-          <div className="mb-[80px] flex">
-            <button className="choice-button mr-6">Möblerat</button>
-            <button className="choice-button">Omöblerat</button>
-          </div>
-          <div className="flex items-center justify-between">
+
+          <div className="mt-[48px] flex items-center justify-between">
             <ButtonSm2 text="Tillbaka" link="/skapaannons/6" />
             <p className="text-[20px] text-indigo-700">7/9</p>
             <ButtonSm text="Nästa" link="/skapaannons/8" />
