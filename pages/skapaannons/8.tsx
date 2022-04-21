@@ -9,35 +9,56 @@ function SkapaAnnons1() {
   return (
     <div>
       <LoginHeader />
-      <div className="container mx-auto mt-[50px] flex items-center justify-center bg-white">
-        <div className="w-[548px]">
+      <div className="container mx-auto mt-[32px] flex items-center justify-center bg-white">
+        <div className="w-[630px]">
           <h1 className="mb-[24px] text-[36px] text-indigo-800">
-            Vilket typ av boende vill du hyra ut?
+            Vad söker du hos den perfekta hyresgästen?
           </h1>
-          <h2 className="text-[20px] text-indigo-800">
-            Vilket typ av bostad hyr du ut?
+          <h2 className="mb-[24px] text-[20px]  text-gray-500">
+            För att skapa matchningar och ge dig de bästa alternativen på
+            hyresgäster kan du klicka i vad som känns viktigt för dig hos en
+            hyresgäst.
           </h2>
-          <div className="my-[24px] flex justify-between">
-            <button className="choice-button">Villa</button>
-            <button className="choice-button">Lägenhet</button>
-            <button className="choice-button">Attefallshus</button>
-            <button className="choice-button">Stuga</button>
+          <div>
+            <button className="choice-button mb-[10px] mr-[10px] text-[18px]">
+              Ej rökare
+            </button>
+            <button className="choice-button mb-[10px] mr-[10px] text-[18px]">
+              Ordningsam
+            </button>
+            <button className="choice-button mb-[10px] mr-[10px] text-[18px]">
+              Vattnar gärna
+            </button>
+            <button className="choice-button mb-[10px] mr-[10px] text-[18px]">
+              Ensamvarg
+            </button>
+            <button className="choice-button mb-[10px] mr-[10px] text-[18px]">
+              Schackspelare
+            </button>
+            <button className="choice-button mb-[10px] mr-[10px] text-[18px]">
+              Social
+            </button>
+            <button className="choice-button mb-[10px] mr-[10px] text-[18px]">
+              Djurvän
+            </button>
+            <button className="choice-button mb-[10px] mr-[10px] text-[18px]">
+              Borta mycket
+            </button>
           </div>
-          <h2 className="my-[24px] text-[20px] text-indigo-800">
-            Vill du hyra hela bostaden eller ett rum i bostaden?
+          <h2 className="my-[24px] mb-[12px] text-[20px] text-indigo-800 ">
+            Lägg till annat
           </h2>
-          <div className="flex">
-            <button className="choice-button mr-6">Hela bostaden</button>
-            <button className="choice-button">Rum i bostaden</button>
-          </div>
-          <h2 className="my-[24px] text-[20px] text-indigo-800">
-            Hyr du ut möblerat?
+          <h2 className="mb-[8px] text-[20px]  text-gray-500">
+            Du kan lägga till flera alternativ. Klicka på Enter för att lägga
+            till.
           </h2>
-          <div className="mb-[80px] flex">
-            <button className="choice-button mr-6">Möblerat</button>
-            <button className="choice-button">Omöblerat</button>
-          </div>
-          <div className="flex items-center justify-between">
+          <input
+            type="text"
+            placeholder="exempel: Student"
+            className="h-[52px] w-[548px] rounded border border-indigo-900 px-[20px]"
+          />
+
+          <div className="mt-[32px] flex items-center justify-between">
             <ButtonSm2 text="Tillbaka" link="/skapaannons/7" />
             <p className="text-[20px] text-indigo-700">8/9</p>
             <ButtonSm text="Nästa" link="/skapaannons/9" />

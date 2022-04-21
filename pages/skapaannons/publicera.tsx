@@ -10,7 +10,7 @@ function Publicera() {
       <LoginHeader />
       <div>
         <div className="container mx-auto mt-[50px] flex items-center justify-center bg-white">
-          <div className="w-[548px]">
+          <div className="mr-[100px] w-[497px]">
             <h1 className="mb-[24px] text-[36px] text-indigo-800">
               Nu är din annons snart uppe!
             </h1>
@@ -19,12 +19,12 @@ function Publicera() {
               inte att granska de policys som gäller för Kollektiva.
             </p>
             <Link href="/profil">
-              <button className="h-[72px] w-[454px] rounded-full bg-indigo-500 text-[24px] text-white">
+              <button className="mb-[16px] h-[72px] w-[454px] rounded-full bg-indigo-500 text-[24px] text-white">
                 Granska och publicera
               </button>
             </Link>
             <Link href="/skapaannons/9">
-              <button className="h-[72px] w-[454px] rounded-full bg-indigo-500 text-[24px] text-white">
+              <button className="h-[72px] w-[454px] rounded-full border border-indigo-800 bg-indigo-100 text-[24px] text-indigo-800">
                 Tillbaka
               </button>
             </Link>
@@ -32,7 +32,7 @@ function Publicera() {
           <div className="relative overflow-hidden">
             <Image
               className="h-full w-full"
-              src="/video.png"
+              src="/publicera.png"
               alt="test"
               width="548"
               height="574"
