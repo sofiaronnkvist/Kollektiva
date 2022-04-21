@@ -1,4 +1,4 @@
-function ProfilMeny() {
+function ProfilMeny(props:string) {
     return(
         <div className='pl-20 pt-10 flex flex-col gap-20 w-1/3'>
             <div className='flex flex-col gap-4'>
