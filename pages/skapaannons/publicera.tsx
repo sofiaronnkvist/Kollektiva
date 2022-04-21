@@ -7,7 +7,7 @@ import Image from 'next/image'
 function Publicera() {
   return (
     <div>
-      <LoginHeader />
+      <LoginHeader link="/profil" />
       <div>
         <div className="container mx-auto mt-[50px] flex items-center justify-center bg-white">
           <div className="mr-[100px] w-[497px]">

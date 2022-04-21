@@ -64,7 +64,7 @@ function AdamChattKomp() {
             />
           </div>
           <div className="self-end">
-            <ButtonSm text="Skicka"></ButtonSm>
+            <ButtonSm text="Skicka" link="/profil/adam-chatt"></ButtonSm>
           </div>
         </div>
       </div>
