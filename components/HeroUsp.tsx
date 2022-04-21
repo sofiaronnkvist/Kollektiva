@@ -30,7 +30,7 @@ function HeroUsp() {
             </ul>
         </div>
         <div className="flex md:w-1/2 rounded-3xl justify-center">
-            <Image src="/img2.png" alt="Cartoon man in window" layout="intrinsic" objectFit="contain" width={445} height={538} />
+            <Image src="/ny-illustration.png" alt="Cartoon woman in window" layout="intrinsic" objectFit="contain" width={445} height={538} />
         </div>
     </div>);
 }
