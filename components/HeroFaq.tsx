@@ -12,48 +12,44 @@ function HeroFaq() {
             <div className="md:w-1/2">
                 <ul>
                     <li>
-                        <div className="flex">
+                        <div className="pb-10 flex w-full justify-between">
                             <div>
                                 <h4 className="font-bold">Hur sköts min betalning?</h4>
                                 <p>Din betalning sköts tryggt via Kollektivas portal och både hyresvärd och hyrestagare är försäkrade.</p>
                             </div>
-                            <Image src="/ArrowDown.png" alt="Arrow" layout="intrinsic" objectFit="contain" width={40} height={40} />
+                            <Image src="/ArrowUp.png" alt="Arrow" layout="intrinsic" objectFit="contain" width="30" height="30" />
                         </div>
                     </li>
                     <li>
-                        <div className="flex">
+                        <div className="pb-10 flex w-full justify-between">
                             <div>
                                 <h4 className="font-bold">Hur sker matchningarna?</h4>
-                                <p>Din betalning sköts tryggt via Kollektivas portal och både hyresvärd och hyrestagare är försäkrade.</p>
                             </div>
-                            <Image src="/ArrowDown.png" alt="Arrow" layout="intrinsic" objectFit="contain" width={40} height={40} />
+                            <Image src="/ArrowDown.png" alt="Arrow" layout="intrinsic" objectFit="contain" width="24" height="24" />
                         </div>
                     </li>
                     <li>
-                        <div className="flex">
+                        <div className="pb-10 flex w-full justify-between">
                             <div>
                                 <h4 className="font-bold">Vilka kan se min annons?</h4>
-                                <p>Din betalning sköts tryggt via Kollektivas portal och både hyresvärd och hyrestagare är försäkrade.</p>
                             </div>
-                            <Image src="/ArrowDown.png" alt="Arrow" layout="intrinsic" objectFit="contain" width={40} height={40} />
+                            <Image src="/ArrowDown.png" alt="Arrow" layout="intrinsic" objectFit="contain" width="24" height="24" />
                         </div>
                     </li>
                     <li>
-                        <div className="flex">
+                        <div className="pb-10 flex w-full justify-between">
                             <div>
                                 <h4 className="font-bold">Jag har inget BankID</h4>
-                                <p>Din betalning sköts tryggt via Kollektivas portal och både hyresvärd och hyrestagare är försäkrade.</p>
                             </div>
-                            <Image src="/ArrowDown.png" alt="Arrow" layout="intrinsic" objectFit="contain" width={40} height={40} />
+                            <Image src="/ArrowDown.png" alt="Arrow" layout="intrinsic" objectFit="contain" width="24" height="24" />
                         </div>
                     </li>
                     <li>
-                        <div className="flex">
+                        <div className="pb-6 flex w-full justify-between">
                             <div>
                                 <h4 className="font-bold">Hur funkar det?</h4>
-                                <p>Din betalning sköts tryggt via Kollektivas portal och både hyresvärd och hyrestagare är försäkrade.</p>
                             </div>
-                            <Image src="/ArrowDown.png" alt="Arrow" layout="intrinsic" objectFit="contain" width={40} height={40} />
+                            <Image src="/ArrowDown.png" alt="Arrow" layout="intrinsic" objectFit="contain" width="24" height="24" />
                         </div>
                     </li>
                 </ul>
