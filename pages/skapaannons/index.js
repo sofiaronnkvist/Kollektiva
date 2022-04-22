@@ -31,7 +31,7 @@ function SkapaAnnons() {
             <div className="flex max-h-[574px] max-w-[548px]">
               <img
                 className="rounded-3xl object-cover"
-                src="/video.png"
+                src="/video-bild.png"
                 alt="Linköping"
               />
               <button className="absolute h-[32px] w-[124px] translate-y-[250px] translate-x-[200px]">
